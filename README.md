@@ -1,19 +1,31 @@
-# Welcome to the data-structures-and-algorithms repository!
+## Estruturas de dados é sobre o que?
 
-This repository contains various implementations of data structures and algorithms in Java, with a focus on understanding time and space complexity. The goal of this repository is to provide a resource for understanding and implementing common data structures and algorithms, as well as to provide examples of how these concepts can be applied in real-world scenarios.
+Estruturas de dados é sobre a organização e armazenamento de dados na memória de um computador. Isso envolve o design e implementação de métodos para organizar e gerenciar dados de maneira que permita uma reuperação e modificação eficiente. Estruturas de dados são um fundamento essencial para escrever software robusto e eficiente.
 
-The repository is divided into sections for different types of data structures and algorithms, such as:
-- Sorting algorithms
-- Search algorithms
-- Data structures like linked lists and trees.
+Objetivos:
 
-Within each section, you will find explanations of the concepts and the time and space complexity of each algorithm, as well as sample Java code that demonstrates how the algorithm works.
+- Organização e abstração dos dados
+- Eficiencia na recuperação e modificação de dados
+- Bom gerenciamento de memória.
 
-In addition to the code examples, this repository also contains information about big O notation and how to analyze the time complexity of an algorithm. This will help you to understand the performance characteristics of different algorithms and to choose the best algorithm for a particular problem.
+- ## Quais são os principais tipos de estruturas de dados?
 
-```java
-int[] array = {1, 2, 3, 4, 5};
-int sum = 0;
-for (int i = 0; i < array.length; i++) {
-    sum += array[i]; // Time complexity is O(n)
-}
+- ARRAYS → Coleção de elementos ocupando uma porção contigua de memória. Permite rapido acesso aos elementos pelo seu indice. Vetores.
+
+![image.png](attachment:2e92bfbd-96f9-4529-aaa3-e42bd8ab272f:image.png)
+
+- Lista → Coleção de elementos armazenados em nós sequências. Um nó é cada elemento da minha coleção. Dentro de cada nó vai ter uma referencia do produto e uma referência para o próximo produto.
+
+![image.png](attachment:ddc0b91b-cb39-49b5-9c2d-0ec17758d2dd:image.png)
+
+*Pergunta: Quando usar array e quando usar lista?*
+
+- ARVORES → Coleções de elementos armazenados de forma hierarquica.
+
+![image.png](attachment:697cc0f3-c9ea-4e7a-9f08-59fe1770a4b5:image.png)
+
+- GRAFOS → coleção de elementos armazenados em nós com livre conexões entre eles.
+
+![image.png](attachment:c0198977-f078-4497-8cf2-680263b3befb:image.png)
+
+- HASH → Coleção de elementos que usa uma função hash para mapear chaves aos elementos. Permite rapidos acesso aos elementos pela sua chave.
